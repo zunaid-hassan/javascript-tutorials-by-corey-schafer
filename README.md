@@ -1,6 +1,6 @@
 # JavaScript Tutorials (Array Methods) by Corey M Schafer
 
-These are the exercise files accompanying [Corey M Schafer's](https://github.com/CoreyMSchafer) YouTube tutorial series, [JavaScript Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTucQUM10Ezv4S7SVoFozLMK), on **array methods**.
+These are the exercise files accompanying [Corey M Schafer](https://github.com/CoreyMSchafer)'s YouTube tutorial series, [JavaScript Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTucQUM10Ezv4S7SVoFozLMK), on **array methods**.
 
 Codes taken from the [CodePen](https://codepen.io/CoreyMSchafer/pen/MYePYd?editors=0010) of this tutorial series.
 

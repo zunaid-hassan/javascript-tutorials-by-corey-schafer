@@ -1,5 +1,6 @@
-log = console.log;
-table = console.table;
+// YouTube Playlist: https://www.youtube.com/playlist?list=PL-osiE80TeTucQUM10Ezv4S7SVoFozLMK
+// Video for this Part 1 Exercise: https://www.youtube.com/watch?v=8JgU2WmrZXI&list=PL-osiE80TeTucQUM10Ezv4S7SVoFozLMK&index=2&ab_channel=CoreySchafer
+// CodePen: https://codepen.io/CoreyMSchafer/pen/MYePYd?editors=0010
 
 var output1 = document.getElementById("example1") || "<div></div>";
 var output2 = document.getElementById("example2") || "<div></div>";
@@ -39,6 +40,8 @@ output1.innerHTML += "Array: " + testArray;
 
 // END isArray()
 
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+
 // length Example
 // Returns Number of Elements
 
@@ -46,7 +49,7 @@ var array2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 var arrayLen = array2.length;
 
-//output2.innerHTML = 'Length: ' + arrayLen;
+// output2.innerHTML = "Length: " + arrayLen;
 
 var sum = 0;
 
@@ -57,6 +60,8 @@ for (var i = 0; i < array2.length; i++) {
 output2.innerHTML += "Total: " + sum;
 
 // END length
+
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
 
 // indexOf() / lastIndexOf() Example
 // Returns Number of first/last index of matching parameter
@@ -79,6 +84,8 @@ var indexOfJoey = array32.indexOf("Joey");
 output3.innerHTML += "Index of Nonexistent: " + indexOfJoey;
 
 // END indexOf()
+
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
 
 // push() / pop() Example
 // Returns new length of array / element that was popped
@@ -108,6 +115,8 @@ output4.innerHTML += "Pop: " + array4.toString();
 
 // END push() / pop()
 
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+
 // unshift() / shift() Example
 // Returns new length of array / element that was shifted
 // Alters original
@@ -136,6 +145,8 @@ output5.innerHTML += "Shift: " + array5.toString();
 
 // END shift() / unshift()
 
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+
 // toString() Example
 
 var array6 = ["This", 1, "Time"];
@@ -145,6 +156,8 @@ var string6 = array6.toString();
 output6.innerHTML += "String:<br>" + string6;
 
 // END toString()
+
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
 
 // forEach() Example
 
@@ -189,6 +202,8 @@ array7.forEach(listPeople);
 
 // END forEach()
 
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+
 // reverse() Example
 // Returns Array
 // Alters original
@@ -226,6 +241,8 @@ output9.innerHTML += "Concat Mixed: " + arrayConcat2.toString();
 
 // END concat()
 
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+
 // join() Example
 // Returns String of joined elements with seperator
 // Does not alter original
@@ -261,6 +278,8 @@ output11.innerHTML += "Slice:<br>" + sliced;
 
 // END slice()
 
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+
 // splice() Example
 // Returns an Array containing deleted elements
 // Alters original
@@ -292,6 +311,8 @@ output12.innerHTML += "Spliced:<br>" + array12.join(", ") + "<hr>";
 output12.innerHTML += "Deleted:<br>" + deleted.join(", ");
 
 // END splice()
+
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
 
 // sort() Example
 // Alters Original
@@ -382,6 +403,8 @@ for (var i = 0; i < array13.length; i++) {
 }
 
 // END sort()
+
+// ☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
 
 // filter() Example
 // Returns Array
