@@ -1,2 +1,7 @@
-# javascript-tutorial-by-corey-schafer
-These are the exercise lessons accompanying Corey Schafer's JavaScript Tutorials on YouTube
+# JavaScript Tutorials by Corey Schafer
+
+These are the exercise lessons accompanying Corey Schafer's JavaScript Tutorials on YouTube.
+
+* [YouTube Playlist link](https://www.youtube.com/playlist?list=PL-osiE80TeTucQUM10Ezv4S7SVoFozLMK)
+
+1. [Part 1](https://www.youtube.com/watch?v=8JgU2WmrZXI&list=PL-osiE80TeTucQUM10Ezv4S7SVoFozLMK&index=2&ab_channel=CoreySchafer):  isArray(), length, indexOf(), lastIndexOf(), push(), pop(), unshift(), and shift()
